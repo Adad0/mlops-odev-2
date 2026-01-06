@@ -13,3 +13,4 @@ def hash_customer_id(customer_id, buckets=50):
     # İlk 8 karakteri alıp integer'a çevir ve mod al
     bucket_index = int(hex_dig[:8], 16) % buckets
     return f"G{bucket_index + 1}"
+echo "BU_KOD_BOZUK" >> feature_eng.py
